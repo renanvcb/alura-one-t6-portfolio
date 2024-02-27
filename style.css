@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  margin: 10%;
+  margin: 10% 20%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -15,6 +15,9 @@ body {
 
 .container__content {
   width: 38rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
 }
 
 .container__content__title {
