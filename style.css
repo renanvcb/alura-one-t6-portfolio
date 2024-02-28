@@ -42,7 +42,10 @@ body {
 
 .container__content__links {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
 }
 
 .container__content__links__link {
