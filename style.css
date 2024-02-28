@@ -48,6 +48,12 @@ body {
   gap: 2rem;
 }
 
+.container__content__links__subtitle {
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
 .container__content__links__link {
   background-color: #22d4fd;
   width: 17.5rem;
