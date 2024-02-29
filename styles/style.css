@@ -9,6 +9,9 @@
 
   --primary-font: "Krona One", sans-serif;
   --secondary-font: "Montserrat", sans-serif;
+
+  --font-regular: 400;
+  --font-semibold: 600;
 }
 
 body {
@@ -28,7 +31,7 @@ body {
 .header__menu__link {
   font-family: var(--secondary-font);
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: var(--font-semibold);
   color: var(--tertiary-color);
 }
 
@@ -37,7 +40,7 @@ body {
 }
 
 .container {
-  padding: 2.4% 20%;
+  padding: 2% 20%;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -53,7 +56,7 @@ body {
 
 .container__content__title {
   font-family: var(--primary-font);
-  font-weight: 400;
+  font-weight: var(--font-regular);
   font-size: 2.25rem;
   line-height: 3.5rem;
   text-align: justify;
@@ -66,7 +69,7 @@ body {
 .container__content__text {
   font-family: var(--secondary-font);
   font-size: 1.5rem;
-  font-weight: 400;
+  font-weight: var(--font-regular);
   line-height: 2.25rem;
   text-align: justify;
 }
@@ -85,7 +88,7 @@ body {
 
 .container__content__links__subtitle {
   font-family: var(--primary-font);
-  font-weight: 400;
+  font-weight: var(--font-regular);
   font-size: 1.5rem;
 }
 
@@ -96,7 +99,7 @@ body {
   padding: 1rem 0;
   text-align: center;
   font-family: var(--secondary-font);
-  font-weight: 600;
+  font-weight: var(--font-semibold);
   font-size: 1.5rem;
   color: var(--secondary-color);
   display: flex;
@@ -117,5 +120,5 @@ body {
   text-align: center;
   font-family: var(--secondary-font);
   font-size: 1.5rem;
-  font-weight: 400;
+  font-weight: var(--font-regular);
 }
