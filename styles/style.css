@@ -48,7 +48,7 @@ body {
 }
 
 .container__content {
-  width: 50%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
@@ -114,7 +114,7 @@ body {
 }
 
 .container__image {
-  width: 50%;
+  width: 40%;
 }
 
 .footer {
