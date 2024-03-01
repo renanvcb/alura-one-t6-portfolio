@@ -48,7 +48,7 @@ body {
 }
 
 .container__content {
-  width: 38rem;
+  width: 50%;
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
@@ -95,7 +95,7 @@ body {
 .container__content__links__link {
   border-radius: 0.5rem;
   border: 2px solid var(--tertiary-color);
-  width: 23.625rem;
+  width: 80%;
   padding: 1rem 0;
   text-align: center;
   font-family: var(--secondary-font);
@@ -111,6 +111,10 @@ body {
 .container__content__links__link:hover {
   background-color: var(--hover-background-color);
   border: 2px solid var(--hover-primary-color);
+}
+
+.container__content__image {
+  width: 50%;
 }
 
 .footer {
