@@ -40,11 +40,11 @@ body {
 }
 
 .container {
-  padding: 2% 20%;
+  padding: 5% 15%;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 0 6rem;
+  gap: 5rem;
 }
 
 .container__content {
@@ -125,4 +125,24 @@ body {
   font-family: var(--secondary-font);
   font-size: 1.5rem;
   font-weight: var(--font-regular);
+}
+
+@media (max-width: 1280px) {
+  .header {
+    padding: 8%;
+  }
+
+  .header__menu {
+    justify-content: center;
+  }
+
+  .container {
+    padding: 0% 5% 2% 5%;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .container__content {
+    width: auto;
+  }
 }
