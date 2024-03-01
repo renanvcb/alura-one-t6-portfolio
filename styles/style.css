@@ -113,7 +113,7 @@ body {
   border: 2px solid var(--hover-primary-color);
 }
 
-.container__content__image {
+.container__image {
   width: 50%;
 }
 
@@ -137,12 +137,16 @@ body {
   }
 
   .container {
-    padding: 0% 5% 2% 5%;
+    padding: 0% 5% 5% 5%;
     flex-direction: column-reverse;
     align-items: center;
   }
 
   .container__content {
     width: auto;
+  }
+
+  .container__content__links__link {
+    width: 50%;
   }
 }
